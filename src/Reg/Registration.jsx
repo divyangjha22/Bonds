@@ -39,12 +39,12 @@ const Registration = () => {
     <label htmlFor="Detail">Detail </label>
     <input type="text" className="form-control" />
 </div>
-<div className="checkbox">
+{/* <div className="checkbox">
 <label>
 <input type="checkbox" /> I caccept the T erms of Use & Privacy Policy.
 <span className="checkmark"></span>
 </label>
-</div>
+</div> */}
 <button className='register-btn'>Register Now</button>
 </form>
 </div>

@@ -1,10 +1,9 @@
-
-
-
 .register-btn {
     font-family: "Muli-Regular";
     color: #333;
-    font-size: 13px; }
+    font-size: 20px;
+    border-radius: 10px;
+  }
    
   .reg > p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0; }
@@ -68,14 +67,15 @@
       display: block; }
    
   .form-control {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     display: block;
-    width: 100%;
+    width: 95%;
     height: 40px;
     padding: 0 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: "Muli-Bold";
     background: none;
+    text-align: center;
    
   }
     .form-control:focus {

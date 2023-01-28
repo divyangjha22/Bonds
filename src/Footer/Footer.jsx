@@ -1,58 +1,44 @@
 import React from "react";
-
 import "./footer.css";
-
 import { NavLink } from 'react-router-dom'
-
 const Footer = () => {
   return (
     <>
 
 <footer className="footer-distributed">
- 
 <div className="footer-left">
- 
-<h3>Corporate<span>Bond</span></h3>
- 
+<h3>Corporate <span>Bonds</span></h3>
 <p className="footer-links">
 
-<li><NavLink to="/">Home</NavLink></li>
-
-<li><NavLink to="/Explore" >Explore</NavLink></li>
-
-<li><NavLink to="/About">About</NavLink></li>
-
-<li><NavLink to="/Contact">Contact</NavLink></li>
-
-
+<div>
+<ul><li><NavLink to="/">Home</NavLink></li></ul>
+<ul><li><NavLink to="/Explore" >Explore</NavLink></li></ul>
+</div>
+<div><ul><li><NavLink to="/About">About</NavLink></li></ul>
+<ul><li><NavLink to="/Contact">Contact</NavLink></li></ul>
+</div>
 
 {/* <a href="#">About</a>
 ·
 ·
 <a href="#">Contact</a> */}
 </p>
- 
 <p className="footer-company-name">BeCorporate &copy; 2022</p>
 </div>
- 
+
 <div className="footer-center">
- 
-<div>
-<i className="fa fa-map-marker"></i>
+<div><i className="fa fa-map-marker"></i>
 <p><span>Jaipur</span> Rajasthan</p>
 </div>
- 
-<div>
-<i className="fa fa-phone"></i>
+<div><i className="fa fa-phone"></i>
 <p>9116403511</p>
 </div>
  
-<div>
-<i className="fa fa-envelope"></i>
+<div><i className="fa fa-envelope"></i>
 <p><a href="abhishekjoshi035@gmail.com">travellerz@gmail.com
 </a></p>
 </div>
- 
+
 </div>
  
 {/* <div className="footer-right">

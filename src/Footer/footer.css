@@ -364,6 +364,7 @@
   }
   .footer-distributed{
     background-color: #292c2f;
+    border-radius: 30px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -387,7 +388,7 @@
   .footer-distributed h3{
     color:  #ffffff;
     font: normal 36px 'Cookie', cursive;
-    margin: 0;
+    margin: 0px 0px 40px 0px;
   }
   
   .footer-distributed h3 span{
@@ -398,8 +399,7 @@
   .footer-distributed .footer-links{
     display: inline-flex;
     color:  #ffffff;
- 
-    margin: 20px 0 12px;
+    margin: 0px 0px 44px 0px;
     padding: 0;
   }
   
@@ -413,14 +413,29 @@
   
   .footer-distributed .footer-company-name{
     color:  #8f9296;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
-    margin: 0;
+    margin: 0px 0px 0px 25px;
   }
-  
   
   .footer-distributed .footer-center{
     width: 35%;
+    margin: 0px 0px 0px 210px;
+  }
+
+  .footer-distributed .footer-center div{
+    color: white;
+  }
+
+  .footer-distributed .footer-center div p{
+    width: 35%;
+    margin: -14px 0px 15px 0px;
+  }
+
+  .footer-distributed .footer-center div p a{
+    width: 35%;
+    font-size: 20px;
+    margin: -14px 0px 15px 0px;
   }
   
   .footer-distributed .footer-center i{
@@ -441,8 +456,9 @@
     line-height: 38px;
   }
   
-  .footer-distributed .footer-center p{
+  .footer-distributed .footer-center p ul{
     display: inline-block;
+    list-style-type: none;
     color: #ffffff;
     vertical-align: middle;
     margin:0;

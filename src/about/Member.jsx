@@ -13,9 +13,9 @@ const Member = [
             
     },
     {
-        name : "Gourav Soni",
+        name : "Prem Bhargav",
         imgData : "./img/Founder.png",
-        disc : "Love for NFT"
+        disc : "Nerd Coder"
             
     }
 ]

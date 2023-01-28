@@ -44,7 +44,7 @@ const Team = (props)  =>{
         <div className="inner-container">
             <h1 className='title'>About Us</h1>
             <p className="text">
-                An online Platform to trade domestic bonds as well as corporate Bonds
+                We are Virtual Velocity!!
             </p>
             <div className="member">
                 
@@ -57,14 +57,14 @@ const Team = (props)  =>{
                 <span>
                   <Team
                   name = "Divyang Jha" 
-                  area = "React Developer"
+                  area = "UI/UX Developer"
                   img = "Images/developer.jfif" />
                 </span>
                 <span>
                   <Team
-                  name = "Gaurav Soni" 
-                  area = "Content Designer"
-                  img = "Images/developer.jfif" />
+                  name = "Prem Bhargav" 
+                  area = "Core Developer"
+                  img = "rzs_divyang.png" />
                   
                 </span>
                
